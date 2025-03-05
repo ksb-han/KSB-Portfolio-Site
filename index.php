@@ -30,7 +30,7 @@
         <div class="two-columns topbot_padding container">
             <div>
                 <h1>Kyle Sean Barnes</h1>
-                <h2>Web Design & Development, UX Design, Graphic Design</h2>
+                <h2>Web Design & Development, UX & Graphic Design</h2>
                 <p>As a Student at Edinburgh College since 2021, I have honed my skills in many areas of design and webs development, learning tools and langauges that help me create the things that I want and need to create.</p>
             </div>
 
