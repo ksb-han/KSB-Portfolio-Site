@@ -43,4 +43,5 @@
         </div>
     </div>
     <?php include("about.php") ?>
+    <?php include("portfolio.php") ?>
     <?php include("components/footer.php") ?>

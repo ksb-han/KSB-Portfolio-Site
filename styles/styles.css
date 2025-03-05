@@ -69,6 +69,12 @@ body a {
   height: 100%;
 }
 
+.three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
 .two-columns {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -180,4 +186,29 @@ nav ul a:hover {
 .carousel-cell img {
   width: 100%;
   height: 100%;
+}
+
+.project-card {
+  background: var(--colour-main-light);
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.project-card__heading {
+  text-align: center;
+}
+.project-card img {
+  width: 100%;
+  filter: saturate(200%) sepia(100%) hue-rotate(145deg) opacity(200%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 2rem;
+  border: 2px solid black;
+}
+.project-card img:hover {
+  filter: saturate(100%) sepia(0%) hue-rotate(0deg) opacity(100%);
+}
+.project-card h1,
+.project-card h2,
+.project-card p {
+  color: black;
+  text-shadow: none;
 }/*# sourceMappingURL=styles.css.map */
