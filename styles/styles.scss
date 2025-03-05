@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+
+:root {
+  /*COLOURS*/
+  --colour-primary-blue: #414073;
+  --colour-main-dark: #3b3b58;
+  --colour-secondary-orange: #ff7f11;
+  --colour-main-light: #ffffff;
+  --colour-secondary-red: #dd1155;
+  /*FONTS */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Roboto Slab", serif;
+  --font-accent: "Sigmar", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-margin-top: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  & p {
+    font-family: var(--font-primary);
+  }
+
+  & h1,
+  h2,
+  h3 {
+    font-family: var(--font-accent);
+  }
+
+  & .title {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  & h2,
+  h3 {
+    font-family: var(--font-primary);
+  }
+}
+
+body {
+  & h1 {
+    font-size: 2rem;
+  }
+
+  & p {
+    font-size: 1.2rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--colour-secondary-red);
+  }
+}
+
+// basic container styles//
+//main container//
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.container_ripped {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-image: url(../images/RippedPaper.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.one-columns {
+  & h2 {
+    font-family: var(--font-accent);
+    color: white;
+    font-size: 4rem;
+    text-shadow: 5px 4px 0px #000000;
+  }
+
+  & p {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000000;
+  }
+}
+
+.glassobox {
+  background: rgba(255, 255, 255, 0.364);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+}
+
+.topbot_padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
+}
+
+/*Navigation Styles */
+.navShrink {
+  font-size: 2rem;
+  padding: 0.2rem;
+  background-color: #3b3b58;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  background-color: var(--colour-secondary-red);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  & img {
+    height: 7rem;
+  }
+
+  & .nav-img {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  .nav {
+    font-size: 5rem;
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem;
+
+    &__list {
+      justify-content: left;
+      align-content: center;
+    }
+
+    &__name {
+      font-family: "Sigmar", serif;
+      color: black;
+    }
+
+    &__role {
+      font-family: "Sigmar", serif;
+      color: var(--colour-main-light);
+    }
+  }
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 0.5rem;
+  font-family: var(--font-accent);
+  font-size: 2rem;
+
+  & a:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--colour-main-dark);
+  }
+
+  & a:hover {
+    color: var(--colour-main-light);
+    transition: 0.3s;
+  }
+}
+
+.bg {
+  background-image: url("../images/OceanBackground.png");
+  background-color: var(--colour-main-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+//carousel styles//
+.carousel-cell {
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
