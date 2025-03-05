@@ -31,13 +31,14 @@
             <div>
                 <h1>Kyle Sean Barnes</h1>
                 <h2>Web Design & Development, UX Design, Graphic Design</h2>
-                <p>I develop websites, it's real fun! I really hate writing about myself and this is not the final test anyway so literally who cares.</p>
+                <p>As a Student at Edinburgh College since 2021, I have honed my skills in many areas of design and webs development, learning tools and langauges that help me create the things that I want and need to create.</p>
             </div>
 
             <div>
-                <h1>Kyle Sean Barnes</h1>
-                <h2>Web Design & Development, UX Design, Graphic Design</h2>
-                <p>I develop websites, it's real fun! I really hate writing about myself and this is not the final test anyway so literally who cares.</p>
+                <h1>The Languages I use.</h1>
+                <p>HTML, CSS, PHP, JavaScript, Python, SQL.</p>
+                <h1>The tools that I use.</h1>
+                <p>Visual Studio Code, Photoshop, illustrator, Figma, FileZilla</p>
             </div>
         </div>
     </div>
