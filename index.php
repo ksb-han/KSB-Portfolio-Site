@@ -3,7 +3,7 @@
     <div class="container" id="home">
         <div class="two-columns">
             <div class="glassobox">
-                <h1>Kyle Sean Barnes</h1>
+                <h1>Kyle Sean Barnes IS MY FRIEND</h1>
                 <h2>Web Design & Development, UX Design, Graphic Design</h2>
                 <p>I have a passion for creating vibrant and visually interesting interfaces, I love learning new skills and trying to apply them to my websites. I have developed websites using just the basics, as well as using frameworks like Bootstrap. I employ tools like SASS in my workflow, I am proficient with photoshop, illustrator and other graphics creation softeware.
                     <br><br>
