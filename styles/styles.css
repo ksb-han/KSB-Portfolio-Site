@@ -15,7 +15,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-margin-top: 1rem;
+  scroll-padding-top: 10rem;
 }
 
 * {
