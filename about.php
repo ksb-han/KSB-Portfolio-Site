@@ -1,5 +1,6 @@
 <?php 
-$descriptiontag = "About page for Kyle Sean Barnes' professional web development portfolio showcasing creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.";
+$descriptiontag = "About page for Kyle Sean Barnes' professional web development portfolio showcasing
+ creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.";
 $pageTitle = "About";
 ?>
 
