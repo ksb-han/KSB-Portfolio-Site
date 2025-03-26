@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="description" content="Kyle Sean Barnes' professional web development portfolio showcasing creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>KSB | Portfolio</title>

@@ -1,30 +1,27 @@
-
-    
-    <div class="container" id="about">
-        <div class="one-columns">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea totam, iusto aspernatur voluptas, aliquid sequi dicta quod voluptate nam, explicabo voluptatibus eaque corrupti debitis? Iure dicta repellat ipsa velit?</p>
-            
-
-        </div>
+<div class="container" id="about">
+    <div class="one-columns glassobox">
+        <h2>About Me</h2>
+        <p>I am an Edinburgh based web developer, graphic designer and all-round creative. I enjoy burying myself in huge projects and thrive off of the satisfaction of seeing my effort bne worthwhile with a wonderful finihsed project.</p>
 
 
     </div>
 
-    <div class="container_ripped">
-        <div class="two-columns topbot_padding container">
-            <div>
-                <h1>Kyle Sean Barnes</h1>
-                <h2>Web Design & Development, UX Design, Graphic Design</h2>
-                <p>I develop websites, it's real fun! I really hate writing about myself and this is not the final test anyway so literally who cares.</p>
-            </div>
 
-            <div>
-                <h1>Kyle Sean Barnes</h1>
-                <h2>Web Design & Development, UX Design, Graphic Design</h2>
-                <p>I develop websites, it's real fun! I really hate writing about myself and this is not the final test anyway so literally who cares.</p>
-            </div>
+</div>
+
+<div class="container_ripped">
+    <div class="two-columns topbot_padding container">
+        <div>
+            <h2>My Upbringing</h2>
+            <h3>Music, Art, Design</h3>
+            <p>Since I was a boy I've always hada passion for creating things, in fact I wasn't able to sit still or be at peace unless something I was doing involved creating things. Sometimes this would manifest as making custom levels in a videogame or from spending hours playing with photoshop, drawing, writing; if it was creative, I've tried my hand at it. </br> </br>
+        I spent many years in a band as the guitarist and frontman, which taught me a lot about teamworking and leadership skills and let me hone my creativity in a slightly different field than I do now; but it was here that I first got excited about typography and logo design (how exciting!) and what eventually led me on my path to becoming a web developer.</p>
+        </div>
+
+        <div>
+
+
+            <img src="./images/YoungMe.png" alt="A picture of me as a boy, playing guitar on stage in front of an audience.">
         </div>
     </div>
-
- 
+</div>

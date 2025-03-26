@@ -1,0 +1,1 @@
+Refactor styles.scss to improve organization and maintainability, added new content on home page and about page, added contact information on the new contact page and styled it, added a meta description and alt text to my images, optimized heading tags to be laid out properly 

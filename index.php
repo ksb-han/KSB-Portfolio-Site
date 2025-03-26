@@ -11,12 +11,12 @@
                 </p>
             </div>
             <div class="glassobox">
-                <h1>My Latest Website!</h1>
+                <h2>My Latest Website!</h2>
                 <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "wrapAround": true  }'>
 
-                    <div class="carousel-cell"><img src="./images/LLCindex.jpg"></div>
-                    <div class="carousel-cell"><img src="./images/LLCindex2.jpg"></div>
-                    <div class="carousel-cell"><img src="./images/LLCmovie.jpg"></div>
+                    <div class="carousel-cell"><img src="./images/LLCindex.jpg" alt="Screenshot of the index page of my limelight cinema website"></div>
+                    <div class="carousel-cell"><img src="./images/LLCindex2.jpg" alt="Screenshot of the index page of my limelight cinema website"></div>
+                    <div class="carousel-cell"><img src="./images/LLCmovie.jpg" alt="Screenshot of the movies page of my limelight cinema website"></div>
 
                 </div>
             </div>
@@ -29,19 +29,20 @@
     <div class="container_ripped">
         <div class="two-columns topbot_padding container">
             <div>
-                <h1>Kyle Sean Barnes</h1>
-                <h2>Web Design & Development, UX & Graphic Design</h2>
+                <h2>Kyle Sean Barnes</h2>
+                <h3>Web Design & Development, UX & Graphic Design</h3>
                 <p>As a Student at Edinburgh College since 2021, I have honed my skills in many areas of design and webs development, learning tools and langauges that help me create the things that I want and need to create.</p>
             </div>
 
             <div>
-                <h1>The Languages I use.</h1>
+                <h3>The Languages I use.</h3>
                 <p>HTML, CSS, PHP, JavaScript, Python, SQL.</p>
-                <h1>The tools that I use.</h1>
+                <h3>The tools that I use.</h3>
                 <p>Visual Studio Code, Photoshop, illustrator, Figma, FileZilla</p>
             </div>
         </div>
     </div>
     <?php include("about.php") ?>
     <?php include("portfolio.php") ?>
+    <?php include("contact.php") ?>
     <?php include("components/footer.php") ?>

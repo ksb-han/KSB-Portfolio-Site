@@ -25,26 +25,38 @@ html {
 }
 * p {
   font-family: var(--font-primary);
+  font-size: 1.5em;
 }
 * h1,
 * h2,
 * h3 {
   font-family: var(--font-accent);
 }
+* h4 {
+  font-family: var(--font-primary);
+  font-size: 1.7em;
+}
 * .title {
   font-size: 5rem;
   text-align: center;
 }
 * h2,
-* h3 {
+* h3,
+* h4 {
   font-family: var(--font-primary);
 }
 
 body h1 {
   font-size: 2rem;
 }
+body h2 {
+  font-size: 1.75em;
+}
+body h3 {
+  font-size: 1.6em;
+}
 body p {
-  font-size: 1.2rem;
+  font-size: 1.5em;
 }
 body a {
   text-decoration: none;
@@ -194,7 +206,9 @@ nav ul a:hover {
   padding: 0.5rem;
 }
 .project-card__heading {
+  font-family: var(--font-accent);
   text-align: center;
+  font-size: 1.7em;
 }
 .project-card img {
   width: 100%;
@@ -211,4 +225,20 @@ nav ul a:hover {
 .project-card p {
   color: black;
   text-shadow: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  font-family: var(--font-primary);
+}
+footer h3 {
+  font-family: var(--font-accent);
+  font-size: 2rem;
 }/*# sourceMappingURL=styles.css.map */
