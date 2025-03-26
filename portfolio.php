@@ -1,3 +1,7 @@
+<?php 
+$descriptiontag = "Portfolio page for Kyle Sean Barnes' Explore my work to see what I am capable of.";
+$pageTitle = "Portfolio";
+?>
 <div class="container" id="portfolio">
     <div class="one-columns">
         <h2>My Work</h2>

@@ -1,5 +1,11 @@
-<?php include("components/navigation.php") ?>
+<?php
+$descriptiontag = "Home page for Kyle Sean Barnes' professional web development portfolio showcasing 
+creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.";
+$pageTitle = "Home";
+include("components/navigation.php");
+?>
 <div class="bg">
+
     <div class="container" id="home">
         <div class="two-columns">
             <div class="glassobox">

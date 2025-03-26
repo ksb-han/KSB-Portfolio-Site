@@ -2,10 +2,11 @@
 <html>
 
 <head>
-  <meta name="description" content="Kyle Sean Barnes' professional web development portfolio showcasing creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.">
+  <meta name="description" content=<?php echo $descriptiontag; ?>>
+  <meta name="keywords" content="web design, web development, UX design, graphic design, portfolio, creative projects, skills, experience, collaboration, opportunities">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>KSB | Portfolio</title>
+  <title>KSB | <?php echo $pageTitle; ?></title>
   <!--Google FontS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

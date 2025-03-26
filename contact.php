@@ -1,4 +1,6 @@
 <footer id="contact">
+    <?php $descriptiontag = "Contact page for Kyle Sean Barnes' professional web development portfolio. Contact me for collaboration opportunities.";
+    $pageTitle = "Contact"; ?>
 
     <h3>How to contact me</h3>
     <div class="three-columns">

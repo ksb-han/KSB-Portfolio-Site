@@ -1,3 +1,8 @@
+<?php 
+$descriptiontag = "About page for Kyle Sean Barnes' professional web development portfolio showcasing creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.";
+$pageTitle = "About";
+?>
+
 <div class="container" id="about">
     <div class="one-columns glassobox">
         <h2>About Me</h2>
