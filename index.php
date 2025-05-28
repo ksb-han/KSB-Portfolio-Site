@@ -44,8 +44,8 @@ include("components/navigation.php");
             </div>
 
             <div>
-                <h3>Services I Offer</h3>
-                <ul>
+                <h3 class="skills-header">Services I Offer</h3>
+                <ul class="skills-list">
                     <li>Web Design</li>
                     <li>Web Development</li>
                     <li>UX Design</li>
@@ -53,9 +53,9 @@ include("components/navigation.php");
                     <li>Database Design</li>
                     <li>Web Hosting</li>
                 </ul>
-                <h3>Languages & Tools I Utilize</h3>
+                <h3 class="skills-header">Languages & Tools I Utilize</h3>
                 <!-- List of Languages & Tools that I use -->
-                <ul>
+                <ul class="skills-list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>PHP</li>
@@ -75,7 +75,7 @@ include("components/navigation.php");
                     <li>Next.js</li>
                 </ul>
                 <!-- List of Tools that I use -->
-                <ul>
+                <ul class="skills-list">
                     <li>Visual Studio Code</li>
                     <li>Photoshop</li>
                     <li>Illustrator</li>

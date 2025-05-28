@@ -7,7 +7,7 @@ $pageTitle = "About";
 <div class="container" id="about">
     <div class="one-columns glassobox">
         <h2>About Me</h2>
-        <p>I am an Edinburgh based web developer, graphic designer and all-round creative. I enjoy burying myself in huge projects and thrive off of the satisfaction of seeing my effort bne worthwhile with a wonderful finihsed project.</p>
+        <p>I am an Edinburgh based web developer, graphic designer and all-round creative. I enjoy burying myself in huge projects and thrive off of the satisfaction of seeing my effort be worthwhile with a wonderful finished project.</p>
 
 
     </div>
