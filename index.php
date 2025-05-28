@@ -2,6 +2,7 @@
 $descriptiontag = "Home page for Kyle Sean Barnes' professional web development portfolio showcasing 
 creative projects, skills, and experience. Explore my work and get in touch for collaboration opportunities.";
 $pageTitle = "Home";
+// HEADER INCLUSION
 include("components/navigation.php");
 ?>
 <div class="bg">
@@ -31,7 +32,9 @@ include("components/navigation.php");
 
 
     </div>
+    <!-- END OF HOME SECTION -->
 
+    <!-- COMMERCIAL SECTION -->
     <div class="container_ripped">
         <div class="two-columns topbot_padding container">
             <div>
@@ -41,10 +44,44 @@ include("components/navigation.php");
             </div>
 
             <div>
-                <h3>The Languages I use.</h3>
-                <p>HTML, CSS, PHP, JavaScript, Python, SQL.</p>
-                <h3>The tools that I use.</h3>
-                <p>Visual Studio Code, Photoshop, illustrator, Figma, FileZilla</p>
+                <h3>Services I Offer</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>UX Design</li>
+                    <li>Graphic Design</li>
+                    <li>Database Design</li>
+                    <li>Web Hosting</li>
+                </ul>
+                <h3>Languages & Tools I Utilize</h3>
+                <!-- List of Languages & Tools that I use -->
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Bootstrap</li>
+                    <li>SASS</li>
+                    <li>Flickity</li>
+                    <li>jQuery</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>WordPress</li>
+                    <li>MySQL</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Next.js</li>
+                </ul>
+                <!-- List of Tools that I use -->
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Figma</li>
+                    <li>FileZilla</li>
+                </ul>
             </div>
         </div>
     </div>

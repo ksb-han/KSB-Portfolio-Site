@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
 
 :root {
+  /* SET VARIABLES FOR COLOURS AND FONTS */
   /*COLOURS*/
   --colour-primary-blue: #414073;
   --colour-main-dark: #3b3b58;
@@ -37,7 +38,7 @@ html {
 
   h4 {
     font-family: var(--font-primary);
-    font-size: 1.7em ;
+    font-size: 1.7em;
   }
 
   & .title {
